@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <link rel="stylesheet" href="../static/style.css">
+	 <title>OTT PLATFORM</title>
+	 <style>
+	 </style>
+</head>
+<body>
+    <nav class="navbar background">
+	    <ul class="nav-list">
+		    <div class="logo"><img src="../static/d-letter-logo-png-1386.png" width="50"  alt="logo"></div>
+		        <li><a href="{{url_for('final')}}"> Home</a></li>
+		        <li><a href="{{url_for('Movies')}}"> Movies</a></li>
+		        <li><a href="{{url_for('subscription')}}"> Subscription</a></li>
+		        <li><a href="{{url_for('News')}}"> News</a></li>
+		        <li><a href="{{url_for('premium')}}"> premium</a></li>
+			</div>
+		</ul>
+		  <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>	         				
+			</div>	
+	</nav>
+	
+</form>
+<div align="center">	
+ <h1>NEW LAUNCH MOVIES</h1>
+	  <img src="../static/sub.jpeg" height="500" width="1000"> 
+	  
+      
+</div> 
+</body>
+</html>		
